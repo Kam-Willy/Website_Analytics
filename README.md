@@ -30,22 +30,19 @@ web-analytics-project/
 │
 ├── data/
 │   ├── raw/                   # Original dataset (CSV)
-│   ├── processed/             # Cleaned and feature-engineered datasets
 │
-├── notebooks/
-│   ├── websiteanalytics.ipynb # Original analysis
-│   ├── websiteanalytics_explained.ipynb # With inline comments & explanations
-│
-├── src/
-│   ├── cleaning.py            # Functions for data cleaning & type conversion
-│   ├── classification.py      # Bounce rate classification
-│   ├── regression.py          # Bounce rate regression
-│   ├── clustering.py          # Source segmentation via KMeans
-│   └── evaluation.py          # Comparison report for all models
+├── notebook/
+│   ├── websiteanalytics.ipynb
+ # With inline comments & explanations
+        # Functions for data cleaning & type conversion
+│   # Bounce rate classification
+│   # Bounce rate regression
+         # Source segmentation via KMeans
+│   └── Comparison report for all models
 │
 ├── reports/
-│   ├── model_performance.md   # Performance summary
-│   └── visuals/               # Plots & figures
+│   ├── model_performance  # Performance summary
+│   └── visuals # Plots & figures
 │
 └── README.md
 ```
